@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* 
+    Tudo em HTML que é "id" em CSS é "#"
+    Tudo em HTML que é "class" em CSS é "."
+*/
+
+body{
+    background-color:#f3f7ed;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+h1#principal{
+    color: #ffffff;
+    text-align:center;
+    background-color:#58733D;
+}
+
+h1{
+    color: #402D16;
+}
+
+h2{
+    color: #734A27;
+}
+
+p{
+  color:#65728C;  
+}
+
+
+/* Personalizando títulos com "class" */
+
+.basico{
+    color: rgba(80, 158, 80, 0.76);
+    font-weight: bold;
+}
+.intermidiario{
+    color: rgba(185, 185, 0, 0.76);
+}
+.avancado{
+    color: rgba(255, 84, 84, 0.801);
+}
+
+.destaque{
+    background-color:#BDD982;
+}
